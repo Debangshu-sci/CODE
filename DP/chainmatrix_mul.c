@@ -61,3 +61,10 @@ int main()
     return 0;
 
 }
+/*Time Complexity: The time complexity of the dynamic programming approach is O(n^3), 
+where n is the number of matrices. 
+This is because we have nested loops iterating over the matrix dimensions to fill in the optimal costs.
+
+Space Complexity: The space complexity of the dynamic programming approach is O(n^2), 
+where n is the number of matrices. 
+This is the space required to store the matrices for optimal costs and split points.*/
